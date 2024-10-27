@@ -15,7 +15,7 @@ for (let index = 1; index <= 100; index++) {
 
 // Exercise 2 Section
 console.log("EXERCISE 2:\n==========\n");
-for (let num = 1; num < 101; num++) {
+for (let num = 1; num <= 100; num++) {
   if (num % 3 == 0 && num % 5 == 0) {
     console.log("FIZZBUZZ");
     
@@ -25,7 +25,7 @@ for (let num = 1; num < 101; num++) {
   } else if (num % 5 == 0) {
     console.log("BUZZ");
     
-  }else{
+  } else {
     console.log(num);
     
   }
